@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.imgCarousel{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media all and (min-width: 767px) and (max-width: 991px){
+.imgCarousel{
+    height: 400px;
+}
+
+}
+@media all and (min-width: 992px){
+.imgCarousel{
+    height: 550px;
+}
+
+}
+
+.imgBorder{
+    border-radius: 15px;
+}
+
